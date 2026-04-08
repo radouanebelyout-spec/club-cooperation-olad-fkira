@@ -183,6 +183,8 @@ const bindings = {
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
+const languageToggle = document.getElementById("language-toggle");
+const languageSwitcher = document.getElementById("language-switcher");
 
 function setText(target, value) {
   if (target.startsWith("[")) {
@@ -200,10 +202,24 @@ function applyLanguage(lang) {
   document.body.classList.toggle("rtl", data.dir === "rtl");
   Object.entries(bindings).forEach(([key, target]) => setText(target, data[key]));
   langButtons.forEach((button) => button.classList.toggle("active", button.dataset.lang === lang));
+  if (languageToggle) {
+    languageToggle.textContent = lang.toUpperCase();
+  }
+  if (window.innerWidth <= 700 && languageSwitcher) {
+    languageSwitcher.classList.remove("open");
+    languageToggle?.setAttribute("aria-expanded", "false");
+  }
 }
 
 langButtons.forEach((button) => {
   button.addEventListener("click", () => applyLanguage(button.dataset.lang));
 });
+
+if (languageToggle && languageSwitcher) {
+  languageToggle.addEventListener("click", () => {
+    const isOpen = languageSwitcher.classList.toggle("open");
+    languageToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+}
 
 applyLanguage("fr");

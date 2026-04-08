@@ -33,10 +33,13 @@
         <a href="#contact" data-nav="contact">Contact</a>
       </nav>
 
-      <div class="language-switcher" aria-label="Choix de langue">
-        <button type="button" class="lang-btn active" data-lang="fr">FR</button>
-        <button type="button" class="lang-btn" data-lang="en">EN</button>
-        <button type="button" class="lang-btn" data-lang="ar">AR</button>
+      <div class="language-menu">
+        <button type="button" class="language-toggle" id="language-toggle" aria-expanded="false" aria-controls="language-switcher">Langue</button>
+        <div class="language-switcher" id="language-switcher" aria-label="Choix de langue">
+          <button type="button" class="lang-btn active" data-lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="ar">AR</button>
+        </div>
       </div>
     </header>
 

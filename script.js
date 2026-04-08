@@ -222,4 +222,4 @@ if (languageToggle && languageSwitcher) {
   });
 }
 
-applyLanguage("fr");
+applyLanguage("ar");

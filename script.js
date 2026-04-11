@@ -4,11 +4,11 @@ const translations = {
     topbarMessage: "Club communautaire, culture sportive et ambition locale.",
     brandName: "Coopération Olad Fkira",
     brandSubtitle: "Club de football et vie associative",
-    navAbout: "À propos", navCompetitions: "Compétitions", navGallery: "Galerie", navContact: "Contact",
+    navAbout: "À propos", navCompetitions: "Compétitions", navGallery: "Galerie", navSignup: "Inscription", navContact: "Contact",
     heroEyebrow: "Village, jeunesse et football",
     heroTitle: "Un site moderne pour faire rayonner le club de Coopération Olad Fkira.",
     heroText: "Cette vitrine met en avant l'équipe, l'esprit associatif et les événements sportifs qui rassemblent les joueurs, les familles et les supporters autour du football.",
-    heroPrimary: "Découvrir le club", heroSecondary: "Voir les activités",
+    heroPrimary: "Découvrir le club", heroSecondary: "Créer un compte",
     stat1Value: "Association", stat1Label: "Sport, culture et développement",
     stat2Value: "Jeunesse", stat2Label: "Encadrement et esprit d'équipe",
     stat3Value: "Village", stat3Label: "Ancrage local et mobilisation",
@@ -49,6 +49,19 @@ const translations = {
     panelEyebrow: "Nom officiel",
     officialNameText: "Le site présente le club sous l'appellation simple “Coopération Olad Fkira” tout en conservant le nom officiel visible publiquement.",
     sourceEyebrow: "Source utilisée", sourceText: "Les éléments visuels et le nom officiel proviennent de la page Facebook publique partagée par vos soins.",
+    signupEyebrow: "Inscription", signupTitle: "Créez un compte pour recevoir les nouvelles du club.",
+    signupCardTitle: "Rejoindre la communauté",
+    signupCardText: "Les visiteurs peuvent s'inscrire avec leur adresse e-mail pour garder un lien avec le club et préparer de futurs services en ligne.",
+    signupBenefit1: "Inscription simple avec nom, e-mail et mot de passe",
+    signupBenefit2: "Validation immédiate du formulaire",
+    signupBenefit3: "Compte enregistré localement sur l'appareil pour cette version vitrine",
+    signupNameLabel: "Nom complet", signupEmailLabel: "Adresse e-mail", signupPasswordLabel: "Mot de passe", signupConfirmLabel: "Confirmer le mot de passe", signupSubmit: "S'inscrire",
+    signupSuccess: "Compte créé avec succès sur cet appareil.",
+    signupDuplicate: "Cette adresse e-mail est déjà enregistrée.",
+    signupInvalidEmail: "Merci de saisir une adresse e-mail valide.",
+    signupPasswordShort: "Le mot de passe doit contenir au moins 6 caractères.",
+    signupPasswordMismatch: "Les mots de passe ne correspondent pas.",
+    signupMissingFields: "Merci de remplir tous les champs.",
     contactEyebrow: "Contact", contactTitle: "Une présence en ligne prête à évoluer avec le club.",
     contactCard1Title: "Page Facebook", contactCard1Text: "Pour suivre l'activité du club, consulter les publications et garder le lien avec la communauté.",
     contactFacebook: "Ouvrir la page",
@@ -60,11 +73,11 @@ const translations = {
     topbarMessage: "A community club built on sport, local pride and collective energy.",
     brandName: "Cooperation Olad Fkira",
     brandSubtitle: "Football club and community life",
-    navAbout: "About", navCompetitions: "Competitions", navGallery: "Gallery", navContact: "Contact",
+    navAbout: "About", navCompetitions: "Competitions", navGallery: "Gallery", navSignup: "Sign up", navContact: "Contact",
     heroEyebrow: "Village, youth and football",
     heroTitle: "A modern website to showcase the Cooperation Olad Fkira club.",
     heroText: "This website highlights the team, the community spirit and the football events that bring together players, families and supporters.",
-    heroPrimary: "Discover the club", heroSecondary: "See activities",
+    heroPrimary: "Discover the club", heroSecondary: "Create an account",
     stat1Value: "Association", stat1Label: "Sport, culture and development",
     stat2Value: "Youth", stat2Label: "Guidance and team spirit",
     stat3Value: "Village", stat3Label: "Local roots and mobilization",
@@ -105,6 +118,19 @@ const translations = {
     panelEyebrow: "Official name",
     officialNameText: "The website uses the simple public label “Cooperation Olad Fkira” while keeping the official name visible.",
     sourceEyebrow: "Source used", sourceText: "The visual material and official name come from the public Facebook page you shared.",
+    signupEyebrow: "Sign up", signupTitle: "Create an account to receive club news.",
+    signupCardTitle: "Join the community",
+    signupCardText: "Visitors can register with their email address to stay connected with the club and prepare future online services.",
+    signupBenefit1: "Simple sign-up with name, email and password",
+    signupBenefit2: "Instant form validation",
+    signupBenefit3: "Account stored locally on the device for this showcase version",
+    signupNameLabel: "Full name", signupEmailLabel: "Email address", signupPasswordLabel: "Password", signupConfirmLabel: "Confirm password", signupSubmit: "Sign up",
+    signupSuccess: "Account created successfully on this device.",
+    signupDuplicate: "This email address is already registered.",
+    signupInvalidEmail: "Please enter a valid email address.",
+    signupPasswordShort: "The password must contain at least 6 characters.",
+    signupPasswordMismatch: "The passwords do not match.",
+    signupMissingFields: "Please fill in all fields.",
     contactEyebrow: "Contact", contactTitle: "An online presence ready to grow with the club.",
     contactCard1Title: "Facebook page", contactCard1Text: "Follow the club activity, browse posts and stay connected with the community.",
     contactFacebook: "Open the page",
@@ -116,11 +142,11 @@ const translations = {
     topbarMessage: "نادي مجتمعي يجمع بين الرياضة وروح القرية وطموح الشباب.",
     brandName: "تعاون أولاد افقيرة",
     brandSubtitle: "نادي كرة القدم والحياة الجمعوية",
-    navAbout: "عن الفريق", navCompetitions: "المنافسات", navGallery: "المعرض", navContact: "التواصل",
+    navAbout: "عن الفريق", navCompetitions: "المنافسات", navGallery: "المعرض", navSignup: "التسجيل", navContact: "التواصل",
     heroEyebrow: "القرية والشباب وكرة القدم",
     heroTitle: "موقع حديث للتعريف بفريق تعاون أولاد افقيرة وإبراز حضوره.",
     heroText: "هذا الموقع يقدم الفريق وروح العمل الجمعوي والأنشطة الكروية التي تجمع اللاعبين والعائلات والمشجعين حول كرة القدم.",
-    heroPrimary: "اكتشف النادي", heroSecondary: "شاهد الأنشطة",
+    heroPrimary: "اكتشف النادي", heroSecondary: "أنشئ حساباً",
     stat1Value: "جمعية", stat1Label: "الرياضة والثقافة والتنمية",
     stat2Value: "الشباب", stat2Label: "التأطير وروح الفريق",
     stat3Value: "القرية", stat3Label: "الارتباط المحلي والتعبئة",
@@ -160,6 +186,19 @@ const translations = {
     panelEyebrow: "الاسم الرسمي",
     officialNameText: "يعرض الموقع اسم النادي بصيغة مبسطة مع الحفاظ على الاسم الرسمي الظاهر بشكل عمومي.",
     sourceEyebrow: "المصدر المستعمل", sourceText: "الاسم الرسمي والعناصر البصرية المعروضة هنا مأخوذة من الصفحة العمومية التي شاركتها.",
+    signupEyebrow: "التسجيل", signupTitle: "أنشئ حساباً لمتابعة أخبار النادي.",
+    signupCardTitle: "انضم إلى المجتمع",
+    signupCardText: "يمكن للزوار التسجيل باستعمال البريد الإلكتروني من أجل البقاء على اتصال مع النادي وتحضير خدمات رقمية في ما بعد.",
+    signupBenefit1: "تسجيل بسيط بالاسم والبريد الإلكتروني وكلمة المرور",
+    signupBenefit2: "التحقق الفوري من البيانات",
+    signupBenefit3: "حفظ الحساب محلياً على الجهاز في هذه النسخة التعريفية",
+    signupNameLabel: "الاسم الكامل", signupEmailLabel: "البريد الإلكتروني", signupPasswordLabel: "كلمة المرور", signupConfirmLabel: "تأكيد كلمة المرور", signupSubmit: "تسجيل",
+    signupSuccess: "تم إنشاء الحساب بنجاح على هذا الجهاز.",
+    signupDuplicate: "هذا البريد الإلكتروني مسجل مسبقاً.",
+    signupInvalidEmail: "يرجى إدخال بريد إلكتروني صحيح.",
+    signupPasswordShort: "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
+    signupPasswordMismatch: "كلمتا المرور غير متطابقتين.",
+    signupMissingFields: "يرجى ملء جميع الحقول.",
     contactEyebrow: "التواصل", contactTitle: "حضور رقمي جاهز للتطور مع النادي.",
     contactCard1Title: "صفحة فيسبوك", contactCard1Text: "لمتابعة أنشطة النادي والاطلاع على المنشورات والحفاظ على الصلة مع المجتمع.",
     contactFacebook: "فتح الصفحة",
@@ -170,7 +209,7 @@ const translations = {
 
 const bindings = {
   topbarMessage: "topbar-message", brandName: "brand-name", brandSubtitle: "brand-subtitle",
-  navAbout: '[data-nav="about"]', navCompetitions: '[data-nav="competitions"]', navGallery: '[data-nav="gallery"]', navContact: '[data-nav="contact"]',
+  navAbout: '[data-nav="about"]', navCompetitions: '[data-nav="competitions"]', navGallery: '[data-nav="gallery"]', navSignup: '[data-nav="signup"]', navContact: '[data-nav="contact"]',
   heroEyebrow: "hero-eyebrow", heroTitle: "hero-title", heroText: "hero-text", heroPrimary: "hero-primary", heroSecondary: "hero-secondary",
   stat1Value: "stat-1-value", stat1Label: "stat-1-label", stat2Value: "stat-2-value", stat2Label: "stat-2-label", stat3Value: "stat-3-value", stat3Label: "stat-3-label",
   heroNoteEyebrow: "hero-note-eyebrow", heroNoteTitle: "hero-note-title",
@@ -179,12 +218,16 @@ const bindings = {
   finalEyebrow: "final-eyebrow", finalTitle: "final-title", finalScoreLabel: "final-score-label", finalScore: "final-score", finalOpponentTitle: "final-opponent-title", finalText: "final-text", finalNote: "final-note", finalVideoButton: "final-video-button", videoCaptionEyebrow: "video-caption-eyebrow", videoCaptionText: "video-caption-text",
   highlightsEyebrow: "highlights-eyebrow", highlightsTitle: "highlights-title", highlight1Title: "highlight-1-title", highlight1Text: "highlight-1-text", highlight2Title: "highlight-2-title", highlight2Text: "highlight-2-text", highlight3Title: "highlight-3-title", highlight3Text: "highlight-3-text",
   galleryEyebrow: "gallery-eyebrow", galleryTitle: "gallery-title", galleryCaption: "gallery-caption", galleryPhoto1: "gallery-photo-1", galleryPhoto2: "gallery-photo-2", galleryPhoto3: "gallery-photo-3", galleryPhoto4: "gallery-photo-4", panelEyebrow: "panel-eyebrow", officialNameText: "official-name-text", sourceEyebrow: "source-eyebrow", sourceText: "source-text",
+  signupEyebrow: "signup-eyebrow", signupTitle: "signup-title", signupCardTitle: "signup-card-title", signupCardText: "signup-card-text", signupBenefit1: "signup-benefit-1", signupBenefit2: "signup-benefit-2", signupBenefit3: "signup-benefit-3", signupNameLabel: "signup-name-label", signupEmailLabel: "signup-email-label", signupPasswordLabel: "signup-password-label", signupConfirmLabel: "signup-confirm-label", signupSubmit: "signup-submit",
   contactEyebrow: "contact-eyebrow", contactTitle: "contact-title", contactCard1Title: "contact-card-1-title", contactCard1Text: "contact-card-1-text", contactFacebook: "contact-facebook", contactCard2Title: "contact-card-2-title", contactCard2Text: "contact-card-2-text", contactButton: "contact-button"
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
 const languageToggle = document.getElementById("language-toggle");
 const languageSwitcher = document.getElementById("language-switcher");
+const signupForm = document.getElementById("signup-form");
+const signupMessage = document.getElementById("signup-message");
+const signupStorageKey = "cof-accounts";
 
 function setText(target, value) {
   if (target.startsWith("[")) {
@@ -209,6 +252,54 @@ function applyLanguage(lang) {
     languageSwitcher.classList.remove("open");
     languageToggle?.setAttribute("aria-expanded", "false");
   }
+  if (signupMessage) {
+    signupMessage.textContent = "";
+    signupMessage.className = "form-message";
+  }
+}
+
+function getCurrentLanguage() {
+  if (document.documentElement.lang === "ar") return "ar";
+  if (document.documentElement.lang === "en") return "en";
+  return "fr";
+}
+
+function getAccounts() {
+  try {
+    return JSON.parse(window.localStorage.getItem(signupStorageKey)) || [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveAccounts(accounts) {
+  window.localStorage.setItem(signupStorageKey, JSON.stringify(accounts));
+}
+
+function showSignupMessage(message, type) {
+  if (!signupMessage) return;
+  signupMessage.textContent = message;
+  signupMessage.className = `form-message ${type}`;
+}
+
+function validateSignupForm(name, email, password, confirmPassword) {
+  const t = translations[getCurrentLanguage()];
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!name || !email || !password || !confirmPassword) {
+    return t.signupMissingFields;
+  }
+  if (!emailPattern.test(email)) {
+    return t.signupInvalidEmail;
+  }
+  if (password.length < 6) {
+    return t.signupPasswordShort;
+  }
+  if (password !== confirmPassword) {
+    return t.signupPasswordMismatch;
+  }
+
+  return "";
 }
 
 langButtons.forEach((button) => {
@@ -219,6 +310,44 @@ if (languageToggle && languageSwitcher) {
   languageToggle.addEventListener("click", () => {
     const isOpen = languageSwitcher.classList.toggle("open");
     languageToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+}
+
+if (signupForm) {
+  signupForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(signupForm);
+    const name = String(formData.get("name") || "").trim();
+    const email = String(formData.get("email") || "").trim().toLowerCase();
+    const password = String(formData.get("password") || "");
+    const confirmPassword = String(formData.get("confirmPassword") || "");
+    const t = translations[getCurrentLanguage()];
+    const validationError = validateSignupForm(name, email, password, confirmPassword);
+
+    if (validationError) {
+      showSignupMessage(validationError, "error");
+      return;
+    }
+
+    const accounts = getAccounts();
+    const alreadyExists = accounts.some((account) => account.email === email);
+
+    if (alreadyExists) {
+      showSignupMessage(t.signupDuplicate, "error");
+      return;
+    }
+
+    accounts.push({
+      name,
+      email,
+      password,
+      createdAt: new Date().toISOString()
+    });
+
+    saveAccounts(accounts);
+    signupForm.reset();
+    showSignupMessage(t.signupSuccess, "success");
   });
 }
 

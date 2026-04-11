@@ -38,6 +38,7 @@
         <a href="#about" data-nav="about">À propos</a>
         <a href="#competitions" data-nav="competitions">Compétitions</a>
         <a href="#gallery" data-nav="gallery">Galerie</a>
+        <a href="#signup" data-nav="signup">Inscription</a>
         <a href="#contact" data-nav="contact">Contact</a>
       </nav>
 
@@ -59,7 +60,7 @@
           <p class="hero-text" id="hero-text">Cette vitrine met en avant l'équipe, l'esprit associatif et les événements sportifs qui rassemblent les joueurs, les familles et les supporters autour du football.</p>
           <div class="hero-actions">
             <a class="button primary" href="#about" id="hero-primary">Découvrir le club</a>
-            <a class="button secondary" href="#competitions" id="hero-secondary">Voir les activités</a>
+            <a class="button secondary" href="#signup" id="hero-secondary">Créer un compte</a>
           </div>
           <ul class="hero-stats" aria-label="Club facts">
             <li><strong id="stat-1-value">Association</strong><span id="stat-1-label">Sport, culture et développement</span></li>
@@ -180,6 +181,42 @@
             <img src="images/supporters.jpeg" alt="Supporters du club au bord du terrain">
             <figcaption id="gallery-photo-4">Des supporters et des jeunes présents pour accompagner le club.</figcaption>
           </figure>
+        </div>
+      </section>
+
+      <section class="signup section-card" id="signup">
+        <div class="section-heading">
+          <p class="eyebrow" id="signup-eyebrow">Inscription</p>
+          <h2 id="signup-title">Créez un compte pour recevoir les nouvelles du club.</h2>
+        </div>
+        <div class="signup-grid">
+          <article class="signup-copy">
+            <h3 id="signup-card-title">Rejoindre la communauté</h3>
+            <p id="signup-card-text">Les visiteurs peuvent s'inscrire avec leur adresse e-mail pour garder un lien avec le club et préparer de futurs services en ligne.</p>
+            <ul class="signup-benefits">
+              <li id="signup-benefit-1">Inscription simple avec nom, e-mail et mot de passe</li>
+              <li id="signup-benefit-2">Validation immédiate du formulaire</li>
+              <li id="signup-benefit-3">Compte enregistré localement sur l'appareil pour cette version vitrine</li>
+            </ul>
+          </article>
+          <article class="signup-panel">
+            <form class="signup-form" id="signup-form" novalidate>
+              <label for="signup-name" id="signup-name-label">Nom complet</label>
+              <input id="signup-name" name="name" type="text" autocomplete="name" required>
+
+              <label for="signup-email" id="signup-email-label">Adresse e-mail</label>
+              <input id="signup-email" name="email" type="email" autocomplete="email" required>
+
+              <label for="signup-password" id="signup-password-label">Mot de passe</label>
+              <input id="signup-password" name="password" type="password" autocomplete="new-password" minlength="6" required>
+
+              <label for="signup-confirm" id="signup-confirm-label">Confirmer le mot de passe</label>
+              <input id="signup-confirm" name="confirmPassword" type="password" autocomplete="new-password" minlength="6" required>
+
+              <button class="button primary" type="submit" id="signup-submit">S'inscrire</button>
+              <p class="form-message" id="signup-message" aria-live="polite"></p>
+            </form>
+          </article>
         </div>
       </section>
 

@@ -52,16 +52,24 @@ const translations = {
     signupEyebrow: "Inscription", signupTitle: "Créez un compte pour recevoir les nouvelles du club.",
     signupCardTitle: "Rejoindre la communauté",
     signupCardText: "Les visiteurs peuvent s'inscrire avec leur adresse e-mail pour garder un lien avec le club et préparer de futurs services en ligne.",
+    snapshotLabel1: "Page publique", snapshotValue1: "103 J'aime",
+    snapshotLabel2: "Communauté active", snapshotValue2: "207 en parlent",
+    signupOfficialEyebrow: "Nom officiel", signupOfficialName: "جمعية أولاد افقيرة للتنمية والثقافة والرياضة",
     signupBenefit1: "Inscription simple avec nom, e-mail et mot de passe",
     signupBenefit2: "Validation immédiate du formulaire",
     signupBenefit3: "Compte enregistré localement sur l'appareil pour cette version vitrine",
     signupNameLabel: "Nom complet", signupEmailLabel: "Adresse e-mail", signupPasswordLabel: "Mot de passe", signupConfirmLabel: "Confirmer le mot de passe", signupSubmit: "S'inscrire",
+    tabSignup: "Créer un compte", tabLogin: "Se connecter", loginEmailLabel: "Adresse e-mail", loginPasswordLabel: "Mot de passe", loginSubmit: "Entrer dans mon compte",
     signupSuccess: "Compte créé avec succès sur cet appareil.",
     signupDuplicate: "Cette adresse e-mail est déjà enregistrée.",
     signupInvalidEmail: "Merci de saisir une adresse e-mail valide.",
     signupPasswordShort: "Le mot de passe doit contenir au moins 6 caractères.",
     signupPasswordMismatch: "Les mots de passe ne correspondent pas.",
     signupMissingFields: "Merci de remplir tous les champs.",
+    loginSuccess: "Connexion réussie. Bienvenue dans votre espace.",
+    loginMissingFields: "Merci de remplir l'e-mail et le mot de passe.",
+    loginNotFound: "Aucun compte trouvé avec cette adresse e-mail.",
+    loginInvalidPassword: "Mot de passe incorrect.",
     contactEyebrow: "Contact", contactTitle: "Une présence en ligne prête à évoluer avec le club.",
     contactCard1Title: "Page Facebook", contactCard1Text: "Pour suivre l'activité du club, consulter les publications et garder le lien avec la communauté.",
     contactFacebook: "Ouvrir la page",
@@ -121,16 +129,24 @@ const translations = {
     signupEyebrow: "Sign up", signupTitle: "Create an account to receive club news.",
     signupCardTitle: "Join the community",
     signupCardText: "Visitors can register with their email address to stay connected with the club and prepare future online services.",
+    snapshotLabel1: "Public page", snapshotValue1: "103 likes",
+    snapshotLabel2: "Active community", snapshotValue2: "207 talking about this",
+    signupOfficialEyebrow: "Official name", signupOfficialName: "جمعية أولاد افقيرة للتنمية والثقافة والرياضة",
     signupBenefit1: "Simple sign-up with name, email and password",
     signupBenefit2: "Instant form validation",
     signupBenefit3: "Account stored locally on the device for this showcase version",
     signupNameLabel: "Full name", signupEmailLabel: "Email address", signupPasswordLabel: "Password", signupConfirmLabel: "Confirm password", signupSubmit: "Sign up",
+    tabSignup: "Create account", tabLogin: "Log in", loginEmailLabel: "Email address", loginPasswordLabel: "Password", loginSubmit: "Enter my account",
     signupSuccess: "Account created successfully on this device.",
     signupDuplicate: "This email address is already registered.",
     signupInvalidEmail: "Please enter a valid email address.",
     signupPasswordShort: "The password must contain at least 6 characters.",
     signupPasswordMismatch: "The passwords do not match.",
     signupMissingFields: "Please fill in all fields.",
+    loginSuccess: "Login successful. Welcome to your space.",
+    loginMissingFields: "Please fill in email and password.",
+    loginNotFound: "No account was found with this email address.",
+    loginInvalidPassword: "Incorrect password.",
     contactEyebrow: "Contact", contactTitle: "An online presence ready to grow with the club.",
     contactCard1Title: "Facebook page", contactCard1Text: "Follow the club activity, browse posts and stay connected with the community.",
     contactFacebook: "Open the page",
@@ -189,16 +205,24 @@ const translations = {
     signupEyebrow: "التسجيل", signupTitle: "أنشئ حساباً لمتابعة أخبار النادي.",
     signupCardTitle: "انضم إلى المجتمع",
     signupCardText: "يمكن للزوار التسجيل باستعمال البريد الإلكتروني من أجل البقاء على اتصال مع النادي وتحضير خدمات رقمية في ما بعد.",
+    snapshotLabel1: "الصفحة العمومية", snapshotValue1: "103 إعجاب",
+    snapshotLabel2: "تفاعل المجتمع", snapshotValue2: "207 يتحدثون عنها",
+    signupOfficialEyebrow: "الاسم الرسمي", signupOfficialName: "جمعية أولاد افقيرة للتنمية والثقافة والرياضة",
     signupBenefit1: "تسجيل بسيط بالاسم والبريد الإلكتروني وكلمة المرور",
     signupBenefit2: "التحقق الفوري من البيانات",
     signupBenefit3: "حفظ الحساب محلياً على الجهاز في هذه النسخة التعريفية",
     signupNameLabel: "الاسم الكامل", signupEmailLabel: "البريد الإلكتروني", signupPasswordLabel: "كلمة المرور", signupConfirmLabel: "تأكيد كلمة المرور", signupSubmit: "تسجيل",
+    tabSignup: "إنشاء حساب", tabLogin: "تسجيل الدخول", loginEmailLabel: "البريد الإلكتروني", loginPasswordLabel: "كلمة المرور", loginSubmit: "الدخول إلى حسابي",
     signupSuccess: "تم إنشاء الحساب بنجاح على هذا الجهاز.",
     signupDuplicate: "هذا البريد الإلكتروني مسجل مسبقاً.",
     signupInvalidEmail: "يرجى إدخال بريد إلكتروني صحيح.",
     signupPasswordShort: "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
     signupPasswordMismatch: "كلمتا المرور غير متطابقتين.",
     signupMissingFields: "يرجى ملء جميع الحقول.",
+    loginSuccess: "تم تسجيل الدخول بنجاح. مرحباً بك.",
+    loginMissingFields: "يرجى إدخال البريد الإلكتروني وكلمة المرور.",
+    loginNotFound: "لا يوجد حساب بهذا البريد الإلكتروني.",
+    loginInvalidPassword: "كلمة المرور غير صحيحة.",
     contactEyebrow: "التواصل", contactTitle: "حضور رقمي جاهز للتطور مع النادي.",
     contactCard1Title: "صفحة فيسبوك", contactCard1Text: "لمتابعة أنشطة النادي والاطلاع على المنشورات والحفاظ على الصلة مع المجتمع.",
     contactFacebook: "فتح الصفحة",
@@ -218,15 +242,19 @@ const bindings = {
   finalEyebrow: "final-eyebrow", finalTitle: "final-title", finalScoreLabel: "final-score-label", finalScore: "final-score", finalOpponentTitle: "final-opponent-title", finalText: "final-text", finalNote: "final-note", finalVideoButton: "final-video-button", videoCaptionEyebrow: "video-caption-eyebrow", videoCaptionText: "video-caption-text",
   highlightsEyebrow: "highlights-eyebrow", highlightsTitle: "highlights-title", highlight1Title: "highlight-1-title", highlight1Text: "highlight-1-text", highlight2Title: "highlight-2-title", highlight2Text: "highlight-2-text", highlight3Title: "highlight-3-title", highlight3Text: "highlight-3-text",
   galleryEyebrow: "gallery-eyebrow", galleryTitle: "gallery-title", galleryCaption: "gallery-caption", galleryPhoto1: "gallery-photo-1", galleryPhoto2: "gallery-photo-2", galleryPhoto3: "gallery-photo-3", galleryPhoto4: "gallery-photo-4", panelEyebrow: "panel-eyebrow", officialNameText: "official-name-text", sourceEyebrow: "source-eyebrow", sourceText: "source-text",
-  signupEyebrow: "signup-eyebrow", signupTitle: "signup-title", signupCardTitle: "signup-card-title", signupCardText: "signup-card-text", signupBenefit1: "signup-benefit-1", signupBenefit2: "signup-benefit-2", signupBenefit3: "signup-benefit-3", signupNameLabel: "signup-name-label", signupEmailLabel: "signup-email-label", signupPasswordLabel: "signup-password-label", signupConfirmLabel: "signup-confirm-label", signupSubmit: "signup-submit",
+  signupEyebrow: "signup-eyebrow", signupTitle: "signup-title", signupCardTitle: "signup-card-title", signupCardText: "signup-card-text", snapshotLabel1: "snapshot-label-1", snapshotValue1: "snapshot-value-1", snapshotLabel2: "snapshot-label-2", snapshotValue2: "snapshot-value-2", signupOfficialEyebrow: "signup-official-eyebrow", signupOfficialName: "signup-official-name", signupBenefit1: "signup-benefit-1", signupBenefit2: "signup-benefit-2", signupBenefit3: "signup-benefit-3", signupNameLabel: "signup-name-label", signupEmailLabel: "signup-email-label", signupPasswordLabel: "signup-password-label", signupConfirmLabel: "signup-confirm-label", signupSubmit: "signup-submit", tabSignup: "tab-signup", tabLogin: "tab-login", loginEmailLabel: "login-email-label", loginPasswordLabel: "login-password-label", loginSubmit: "login-submit",
   contactEyebrow: "contact-eyebrow", contactTitle: "contact-title", contactCard1Title: "contact-card-1-title", contactCard1Text: "contact-card-1-text", contactFacebook: "contact-facebook", contactCard2Title: "contact-card-2-title", contactCard2Text: "contact-card-2-text", contactButton: "contact-button"
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
 const languageToggle = document.getElementById("language-toggle");
 const languageSwitcher = document.getElementById("language-switcher");
+const authTabs = document.querySelectorAll(".auth-tab");
+const authForms = document.querySelectorAll(".auth-form");
 const signupForm = document.getElementById("signup-form");
 const signupMessage = document.getElementById("signup-message");
+const loginForm = document.getElementById("login-form");
+const loginMessage = document.getElementById("login-message");
 const signupStorageKey = "cof-accounts";
 
 function setText(target, value) {
@@ -256,6 +284,10 @@ function applyLanguage(lang) {
     signupMessage.textContent = "";
     signupMessage.className = "form-message";
   }
+  if (loginMessage) {
+    loginMessage.textContent = "";
+    loginMessage.className = "form-message";
+  }
 }
 
 function getCurrentLanguage() {
@@ -282,6 +314,12 @@ function showSignupMessage(message, type) {
   signupMessage.className = `form-message ${type}`;
 }
 
+function showLoginMessage(message, type) {
+  if (!loginMessage) return;
+  loginMessage.textContent = message;
+  loginMessage.className = `form-message ${type}`;
+}
+
 function validateSignupForm(name, email, password, confirmPassword) {
   const t = translations[getCurrentLanguage()];
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -302,6 +340,17 @@ function validateSignupForm(name, email, password, confirmPassword) {
   return "";
 }
 
+function setAuthView(view) {
+  authTabs.forEach((tab) => {
+    tab.classList.toggle("active", tab.dataset.authView === view);
+  });
+  authForms.forEach((form) => {
+    form.classList.toggle("active", form.id === `${view}-form`);
+  });
+  showSignupMessage("", "");
+  showLoginMessage("", "");
+}
+
 langButtons.forEach((button) => {
   button.addEventListener("click", () => applyLanguage(button.dataset.lang));
 });
@@ -312,6 +361,10 @@ if (languageToggle && languageSwitcher) {
     languageToggle.setAttribute("aria-expanded", String(isOpen));
   });
 }
+
+authTabs.forEach((tab) => {
+  tab.addEventListener("click", () => setAuthView(tab.dataset.authView));
+});
 
 if (signupForm) {
   signupForm.addEventListener("submit", (event) => {
@@ -348,6 +401,38 @@ if (signupForm) {
     saveAccounts(accounts);
     signupForm.reset();
     showSignupMessage(t.signupSuccess, "success");
+  });
+}
+
+if (loginForm) {
+  loginForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(loginForm);
+    const email = String(formData.get("email") || "").trim().toLowerCase();
+    const password = String(formData.get("password") || "");
+    const t = translations[getCurrentLanguage()];
+
+    if (!email || !password) {
+      showLoginMessage(t.loginMissingFields, "error");
+      return;
+    }
+
+    const accounts = getAccounts();
+    const account = accounts.find((item) => item.email === email);
+
+    if (!account) {
+      showLoginMessage(t.loginNotFound, "error");
+      return;
+    }
+
+    if (account.password !== password) {
+      showLoginMessage(t.loginInvalidPassword, "error");
+      return;
+    }
+
+    showLoginMessage(`${t.loginSuccess} ${account.name}`, "success");
+    loginForm.reset();
   });
 }
 

@@ -193,6 +193,20 @@
           <article class="signup-copy">
             <h3 id="signup-card-title">Rejoindre la communauté</h3>
             <p id="signup-card-text">Les visiteurs peuvent s'inscrire avec leur adresse e-mail pour garder un lien avec le club et préparer de futurs services en ligne.</p>
+            <div class="club-snapshot">
+              <div class="snapshot-item">
+                <span id="snapshot-label-1">Page publique</span>
+                <strong id="snapshot-value-1">103 J'aime</strong>
+              </div>
+              <div class="snapshot-item">
+                <span id="snapshot-label-2">Communauté active</span>
+                <strong id="snapshot-value-2">207 en parlent</strong>
+              </div>
+            </div>
+            <div class="official-name-card">
+              <p class="eyebrow" id="signup-official-eyebrow">Nom officiel</p>
+              <h4 id="signup-official-name">جمعية أولاد افقيرة للتنمية والثقافة والرياضة</h4>
+            </div>
             <ul class="signup-benefits">
               <li id="signup-benefit-1">Inscription simple avec nom, e-mail et mot de passe</li>
               <li id="signup-benefit-2">Validation immédiate du formulaire</li>
@@ -200,7 +214,12 @@
             </ul>
           </article>
           <article class="signup-panel">
-            <form class="signup-form" id="signup-form" novalidate>
+            <div class="auth-tabs" role="tablist" aria-label="Options de compte">
+              <button class="auth-tab active" type="button" id="tab-signup" data-auth-view="signup">Créer un compte</button>
+              <button class="auth-tab" type="button" id="tab-login" data-auth-view="login">Se connecter</button>
+            </div>
+
+            <form class="signup-form auth-form active" id="signup-form" novalidate>
               <label for="signup-name" id="signup-name-label">Nom complet</label>
               <input id="signup-name" name="name" type="text" autocomplete="name" required>
 
@@ -215,6 +234,17 @@
 
               <button class="button primary" type="submit" id="signup-submit">S'inscrire</button>
               <p class="form-message" id="signup-message" aria-live="polite"></p>
+            </form>
+
+            <form class="signup-form auth-form" id="login-form" novalidate>
+              <label for="login-email" id="login-email-label">Adresse e-mail</label>
+              <input id="login-email" name="email" type="email" autocomplete="email" required>
+
+              <label for="login-password" id="login-password-label">Mot de passe</label>
+              <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+
+              <button class="button primary" type="submit" id="login-submit">Entrer dans mon compte</button>
+              <p class="form-message" id="login-message" aria-live="polite"></p>
             </form>
           </article>
         </div>
